@@ -1,0 +1,24 @@
+{
+    "name": "branzia/hookable",
+    "description": "Hook system for Laravel packages inspired by Filament and WordPress",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Branzia\\Hookable\\": "src/"
+        }
+    },
+    "extra": {
+      "laravel": {
+          "providers": [
+              "Branzia\\Hookable\\HookableServiceProvider"
+          ],
+          "aliases": {}
+      }
+    },
+    "require": {
+        "php": "^8.2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
